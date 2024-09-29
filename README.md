@@ -1,2 +1,19 @@
-# Pull-Tool
-Python interface with PGRESQL support for a multi-part + assembly industry operational production plan, with multiple intervenients, production phases and a production scheduler.
+# Multi-Part Production w/ Assembly Pull-Tool
+
+OVERALL APPLICATION DESCRIPTION:
+
+The following project represents a digital solution for a production line with several transformation stages, final assembly with associated setup time (drying) and final product expedition. It is the result of a case study occurred in a big production industry, slightly altered due to privacy reasons. The main purpose and use for the app would be to steer the production flux of big industries with several (and distant) production stages following a pull-strategy. This means that, being the assembly the main bottleneck, reaching a minimum buffer of 2 hours worth of production would trigger the next part to be produced, as well as schedule when to cut additional parts that might not need that much transformation (more information on the production process in PROCESS DETAIL). The application is transformed into an EXE and is ran on several computers, where the user is required to register in simple steps every physical action made (conclude cut, send production lot, expedite,...). This way, the info can travel alongside the physical production, thus harmonizing the fluidity of the production plan, avoid excessive WIP and intermediate stock, as well as not meeting the required production plan.
+
+PROGRAM DESCRIPTION:
+
+The project is divided into 3 main components: The interface, the main program and the executable.
+The interface uses the PYQT5 library for an easy, intuitive GUI where the user interacts with the application itself. It is divided into 7 user interfaces, each representing the individual stages of the production process. the "Production Plan" allows the Logistic Responsible to submit the overall production plan with the defined production sequence. The "Recipes" allows for every user to consult what parts are needed to assemble Product X.
+The main program consists of a python-based script with POSTGRESQL communication to a database (used PGAdmin) that stores all the necessary information of each table, transactions and calculated values (given that the industry runs continuously and the app may be closed).
+The executable is the culmination of the application onto an application that can be easily replicated to several machines, all communicating under the same network.
+
+PROCESS DETAIL:
+
+The production process consists of 4 main stages: Cutting, Unmolding, Assembly and Expedition. Cutting, Unmolding and Assembly are governed by an extra logistic operator, given the weight and complexity of the raw material.
+The final product consists of several parts, each originated from a source block that is cut and divided into lots of 20,50,100 or 200 parts (can be customizable). The parts can be characterized as Assemblers (C) or Non-Assemblers (NC). The first consists of a part that is, during the production process, assembled into a subproduct using other pieces, whereas the latter does not undergo assembly, but goes straight to the client or is sent alongside a C subproduct.
+After a process analysis, the Assembly was found to be the main bottleneck, thus it steers the whole production cycle. A buffer of 2 hours worth of production was defined to trigger new block cuts of the next sequence to produce. Whenever this replenishment rate is reached, it triggers a new sequence, thus avoiding overflowing stock and, essentially, a one-product flow across each stage. Given the significant drying times needed after assembly (for Cs), a scheduler that triggers when to cut the NCs needed for the final product was also developed, according to the average time needed to cut it. This allows for a full product assemble on time without having the NCs already cut and occupying space in the Warehouse. The formula is as such: NCTime = AssembleTime + DryingTime - CuttingTime.
+The Production hours available before assembly are calculated using an inversely proportional weighing method that, according to the theoretical total assembly time, it associates an amount of time of assembly per part.
