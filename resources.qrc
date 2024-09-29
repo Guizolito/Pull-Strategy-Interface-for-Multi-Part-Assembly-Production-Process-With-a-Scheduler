@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/aqui.png</file>
+        <file>images/box.png</file>
+        <file>images/buffer (1).png</file>
+        <file>images/glue.png</file>
+        <file>images/laser-cutting-machine.png</file>
+        <file>images/loupe.png</file>
+        <!-- Add more image files as needed -->
+    </qresource>
+</RCC>

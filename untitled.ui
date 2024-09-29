@@ -1,0 +1,2714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QMainWindow</class>
+ <widget class="QDialog" name="QMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1481</width>
+    <height>894</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(235, 235, 235);
+gridline-color: rgb(255, 255, 255);
+font: 87 8pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>1431</width>
+     <height>801</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 8pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+background-color: rgb(235, 235, 235);
+</string>
+   </property>
+   <property name="currentIndex">
+    <number>2</number>
+   </property>
+   <widget class="QWidget" name="Expedicao">
+    <widget class="QLabel" name="LabelOpCola_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>1111</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Expedite</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="TableExp">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>1411</width>
+       <height>631</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 10pt &quot;HP Simplified&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_12">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>50</y>
+       <width>751</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+
+</string>
+     </property>
+     <property name="text">
+      <string>Expedition Plan</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ExpediteButton">
+     <property name="geometry">
+      <rect>
+       <x>1120</x>
+       <y>730</y>
+       <width>301</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(100, 100, 100);
+border-color: rgb(170, 0, 0);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color:rgb(255, 255, 255)</string>
+     </property>
+     <property name="text">
+      <string>Expedite</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ConfirmarNaoColados">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>730</y>
+       <width>281</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(100, 100, 100);
+border-color: rgb(170, 0, 0);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color:rgb(255, 255, 255)</string>
+     </property>
+     <property name="text">
+      <string>Update</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ExcelExpedicao">
+     <property name="geometry">
+      <rect>
+       <x>1550</x>
+       <y>660</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(100, 100, 100);
+border-color: rgb(170, 0, 0);
+font: 12pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(255, 255, 255)</string>
+     </property>
+     <property name="text">
+      <string>Extrair Excel Expedição</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="PesquisaSeq_2">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>740</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(100, 100, 100);
+border-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Search Sequence</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="PesquisaSeqText_2">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>740</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_20">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>730</y>
+       <width>411</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>label_20</zorder>
+    <zorder>LabelOpCola_2</zorder>
+    <zorder>TableExp</zorder>
+    <zorder>LabelLogCorte_12</zorder>
+    <zorder>ExpediteButton</zorder>
+    <zorder>ConfirmarNaoColados</zorder>
+    <zorder>ExcelExpedicao</zorder>
+    <zorder>PesquisaSeq_2</zorder>
+    <zorder>PesquisaSeqText_2</zorder>
+   </widget>
+   <widget class="QWidget" name="OpCola">
+    <widget class="QTextEdit" name="QtdOpCola">
+     <property name="geometry">
+      <rect>
+       <x>1090</x>
+       <y>730</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="TableOpCola">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>1411</width>
+       <height>571</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 10pt &quot;HP Simplified&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelOpCola">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>1111</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Assembly</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_6">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>50</y>
+       <width>751</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+
+</string>
+     </property>
+     <property name="text">
+      <string>Production Plan</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_16">
+     <property name="geometry">
+      <rect>
+       <x>900</x>
+       <y>720</y>
+       <width>521</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelQtdLogCorte_4">
+     <property name="geometry">
+      <rect>
+       <x>920</x>
+       <y>730</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Quantity FP</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_10">
+     <property name="geometry">
+      <rect>
+       <x>990</x>
+       <y>680</y>
+       <width>331</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+</string>
+     </property>
+     <property name="text">
+      <string>Assembly</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_33">
+     <property name="geometry">
+      <rect>
+       <x>1070</x>
+       <y>670</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="resources.qrc">:/images/images/glue.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ConcOpCola">
+     <property name="geometry">
+      <rect>
+       <x>1220</x>
+       <y>730</y>
+       <width>191</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(100, 100, 100);
+border-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Conclude</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="PesquisaSeqText_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>730</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_24">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>720</y>
+       <width>331</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="PesquisaSeq_3">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>730</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(100, 100, 100);
+border-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Search Sequence</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_46">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>720</y>
+       <width>191</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="EnviarExcedenteOpCola">
+     <property name="geometry">
+      <rect>
+       <x>690</x>
+       <y>730</y>
+       <width>171</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(170, 85, 127);
+
+color: rgb(255, 255, 255);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Send to Stock</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_23">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>680</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+</string>
+     </property>
+     <property name="text">
+      <string>Excess</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_47">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>720</y>
+       <width>281</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_30">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>680</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+</string>
+     </property>
+     <property name="text">
+      <string>Current Sequence</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="AlterarSequenciaText">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>730</y>
+       <width>71</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="AlterarSequencia">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>730</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(100, 100, 100);
+border-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Change Sequence</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_31">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>680</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+</string>
+     </property>
+     <property name="text">
+      <string>Search Sequence</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <zorder>label_24</zorder>
+    <zorder>label_16</zorder>
+    <zorder>label_47</zorder>
+    <zorder>PesquisaSeq_3</zorder>
+    <zorder>PesquisaSeqText_3</zorder>
+    <zorder>QtdOpCola</zorder>
+    <zorder>TableOpCola</zorder>
+    <zorder>LabelOpCola</zorder>
+    <zorder>LabelLogCorte_6</zorder>
+    <zorder>LabelQtdLogCorte_4</zorder>
+    <zorder>LabelLogCorte_10</zorder>
+    <zorder>label_33</zorder>
+    <zorder>ConcOpCola</zorder>
+    <zorder>label_46</zorder>
+    <zorder>EnviarExcedenteOpCola</zorder>
+    <zorder>LabelLogCorte_23</zorder>
+    <zorder>LabelLogCorte_30</zorder>
+    <zorder>AlterarSequenciaText</zorder>
+    <zorder>AlterarSequencia</zorder>
+    <zorder>LabelLogCorte_31</zorder>
+   </widget>
+   <widget class="QWidget" name="LogCola">
+    <widget class="QLabel" name="LabelLogCola">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>1111</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Logistic C</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="TableLogCola">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>1411</width>
+       <height>581</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 10pt &quot;HP Simplified&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="AbastLogCola">
+     <property name="geometry">
+      <rect>
+       <x>1100</x>
+       <y>720</y>
+       <width>321</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(100, 100, 100);
+border-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Conclude</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="MinLogCola">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>690</y>
+       <width>291</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60);
+</string>
+     </property>
+     <property name="text">
+      <string>Available Production</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>940</x>
+       <y>0</y>
+       <width>181</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../.designer/.designer/aqui.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_7">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>50</y>
+       <width>751</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+
+</string>
+     </property>
+     <property name="text">
+      <string>Buffer</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>620</x>
+       <y>730</y>
+       <width>71</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Neue Haas Grotesk Text Pro Blac</family>
+       <pointsize>15</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;background-color: rgb(217, 217, 217);</string>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>680</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Neue Haas Grotesk Text Pro Blac</family>
+       <pointsize>15</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="resources.qrc">:/images/images/loupe.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>730</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Neue Haas Grotesk Text Pro Blac</family>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;background-color: rgb(217, 217, 217);</string>
+     </property>
+     <property name="text">
+      <string>Production Hours</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>730</y>
+       <width>321</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="PesquisaSeqText_4">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>740</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_25">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>730</y>
+       <width>411</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="PesquisaSeq_4">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>740</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(100, 100, 100);
+border-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Search Sequence</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="MinLogCola_2">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>690</y>
+       <width>291</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60);
+</string>
+     </property>
+     <property name="text">
+      <string>Search Sequence</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <zorder>label_25</zorder>
+    <zorder>label_13</zorder>
+    <zorder>LabelLogCola</zorder>
+    <zorder>TableLogCola</zorder>
+    <zorder>AbastLogCola</zorder>
+    <zorder>MinLogCola</zorder>
+    <zorder>label_4</zorder>
+    <zorder>LabelLogCorte_7</zorder>
+    <zorder>label_10</zorder>
+    <zorder>label_12</zorder>
+    <zorder>label_11</zorder>
+    <zorder>PesquisaSeqText_4</zorder>
+    <zorder>PesquisaSeq_4</zorder>
+    <zorder>MinLogCola_2</zorder>
+   </widget>
+   <widget class="QWidget" name="OpCorte">
+    <widget class="QTableWidget" name="TableOpCorte">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>1411</width>
+       <height>501</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 10pt &quot;HP Simplified&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="QtdOpCorte">
+     <property name="geometry">
+      <rect>
+       <x>930</x>
+       <y>700</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelOpCorte">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>1111</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Unmolding</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ConcOpCorte">
+     <property name="geometry">
+      <rect>
+       <x>1080</x>
+       <y>670</y>
+       <width>311</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(100, 100, 100);
+border-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+font: 11pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Conclude</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_8">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>50</y>
+       <width>751</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+
+</string>
+     </property>
+     <property name="text">
+      <string>Machine Cutting Plan</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>640</y>
+       <width>691</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelQtdLogCorte_3">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>700</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Parts OK</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_9">
+     <property name="geometry">
+      <rect>
+       <x>860</x>
+       <y>610</y>
+       <width>331</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+</string>
+     </property>
+     <property name="text">
+      <string>Quantities</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_31">
+     <property name="geometry">
+      <rect>
+       <x>870</x>
+       <y>600</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="resources.qrc">:/images/images/laser-cutting-machine.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="QtdOpCorte_2">
+     <property name="geometry">
+      <rect>
+       <x>930</x>
+       <y>750</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelQtdLogCorte_7">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>760</y>
+       <width>171</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Parts Needed</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="QtdOpCorte_Total">
+     <property name="geometry">
+      <rect>
+       <x>930</x>
+       <y>650</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelQtdLogCorte_5">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>650</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Total Parts Registered</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>720</y>
+       <width>101</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Machine 2</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>750</y>
+       <width>101</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Machine 3</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>690</y>
+       <width>101</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Machine 1</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_19">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>640</y>
+       <width>161</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_20">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>610</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+</string>
+     </property>
+     <property name="text">
+      <string>Cutting Machine</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_8">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>660</y>
+       <width>101</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>All</string>
+     </property>
+    </widget>
+    <zorder>label_19</zorder>
+    <zorder>label_14</zorder>
+    <zorder>TableOpCorte</zorder>
+    <zorder>QtdOpCorte</zorder>
+    <zorder>LabelOpCorte</zorder>
+    <zorder>ConcOpCorte</zorder>
+    <zorder>LabelLogCorte_8</zorder>
+    <zorder>LabelQtdLogCorte_3</zorder>
+    <zorder>LabelLogCorte_9</zorder>
+    <zorder>label_31</zorder>
+    <zorder>QtdOpCorte_2</zorder>
+    <zorder>LabelQtdLogCorte_7</zorder>
+    <zorder>QtdOpCorte_Total</zorder>
+    <zorder>LabelQtdLogCorte_5</zorder>
+    <zorder>radioButton_2</zorder>
+    <zorder>radioButton_3</zorder>
+    <zorder>radioButton</zorder>
+    <zorder>LabelLogCorte_20</zorder>
+    <zorder>radioButton_8</zorder>
+   </widget>
+   <widget class="QWidget" name="AbastBuffer">
+    <widget class="QLabel" name="LabelLogCorte_22">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>1201</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Logistic B</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_25">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>50</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+
+</string>
+     </property>
+     <property name="text">
+      <string>Production Plan</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="TableLogCorte_C_K_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>731</width>
+       <height>551</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 10pt &quot;HP Simplified&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_26">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>740</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60);
+background-color: rgb(217, 217, 217);
+</string>
+     </property>
+     <property name="text">
+      <string>Buffer</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_21">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>720</y>
+       <width>1351</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ConcLogCorteExp">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>730</y>
+       <width>251</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(100, 100, 100);
+border-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Expedition</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ConcLogCorte">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>730</y>
+       <width>251</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(100, 100, 100);
+border-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Assembly</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_27">
+     <property name="geometry">
+      <rect>
+       <x>930</x>
+       <y>50</y>
+       <width>331</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+</string>
+     </property>
+     <property name="text">
+      <string>Stock</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="TableLogExcedentes_3">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>90</y>
+       <width>671</width>
+       <height>551</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 10pt &quot;HP Simplified&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_34">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>740</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="resources.qrc">:/images/images/buffer (1).png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="PesquisaSeqText_5">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>670</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_41">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>660</y>
+       <width>411</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="PesquisaSeq_5">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>670</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(100, 100, 100);
+border-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Search Sequence</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="PesquisaEP">
+     <property name="geometry">
+      <rect>
+       <x>1260</x>
+       <y>660</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(100, 100, 100);
+border-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Search Part</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_42">
+     <property name="geometry">
+      <rect>
+       <x>1110</x>
+       <y>650</y>
+       <width>311</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="PesquisaEPText">
+     <property name="geometry">
+      <rect>
+       <x>1130</x>
+       <y>660</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="SeqAssociadaText">
+     <property name="geometry">
+      <rect>
+       <x>830</x>
+       <y>660</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_44">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>650</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_28">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>660</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+background-color: rgb(217, 217, 217);
+
+</string>
+     </property>
+     <property name="text">
+      <string>Sequence:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_29">
+     <property name="geometry">
+      <rect>
+       <x>920</x>
+       <y>660</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+background-color: rgb(217, 217, 217);
+
+</string>
+     </property>
+     <property name="text">
+      <string>Quantity:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_45">
+     <property name="geometry">
+      <rect>
+       <x>920</x>
+       <y>650</y>
+       <width>181</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="QtdAssociadaText">
+     <property name="geometry">
+      <rect>
+       <x>1020</x>
+       <y>660</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+    </widget>
+    <zorder>label_45</zorder>
+    <zorder>label_44</zorder>
+    <zorder>label_42</zorder>
+    <zorder>label_41</zorder>
+    <zorder>PesquisaSeqText_5</zorder>
+    <zorder>PesquisaSeq_5</zorder>
+    <zorder>LabelLogCorte_27</zorder>
+    <zorder>TableLogCorte_C_K_2</zorder>
+    <zorder>label_21</zorder>
+    <zorder>ConcLogCorte</zorder>
+    <zorder>ConcLogCorteExp</zorder>
+    <zorder>TableLogExcedentes_3</zorder>
+    <zorder>LabelLogCorte_26</zorder>
+    <zorder>LabelLogCorte_22</zorder>
+    <zorder>LabelLogCorte_25</zorder>
+    <zorder>label_34</zorder>
+    <zorder>PesquisaEP</zorder>
+    <zorder>PesquisaEPText</zorder>
+    <zorder>SeqAssociadaText</zorder>
+    <zorder>LabelLogCorte_28</zorder>
+    <zorder>LabelLogCorte_29</zorder>
+    <zorder>QtdAssociadaText</zorder>
+   </widget>
+   <widget class="QWidget" name="LogCorteNColado">
+    <widget class="QLabel" name="LabelLogCorte_17">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>50</y>
+       <width>1111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+
+</string>
+     </property>
+     <property name="text">
+      <string>Production Plan</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_18">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>1211</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Cutting</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="TableOpCorte_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>1411</width>
+       <height>501</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 10pt &quot;HP Simplified&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_15">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>640</y>
+       <width>761</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelQtdLogCorte_8">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>670</y>
+       <width>231</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Number of Cut Parts</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="QtdOpCorte_3">
+     <property name="geometry">
+      <rect>
+       <x>900</x>
+       <y>670</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_11">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>610</y>
+       <width>331</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+</string>
+     </property>
+     <property name="text">
+      <string>Quantities</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_32">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>600</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="resources.qrc">:/images/images/laser-cutting-machine.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ConcOpCorte_2">
+     <property name="geometry">
+      <rect>
+       <x>1040</x>
+       <y>670</y>
+       <width>171</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(100, 100, 100);
+border-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Conclude Cutting</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelQtdLogCorte_9">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>730</y>
+       <width>231</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Lot Number</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="NroLote">
+     <property name="geometry">
+      <rect>
+       <x>950</x>
+       <y>730</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CorteADecorrer">
+     <property name="geometry">
+      <rect>
+       <x>1220</x>
+       <y>670</y>
+       <width>171</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(100, 100, 100);
+border-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Currently Cutting</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_6">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>690</y>
+       <width>80</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Machine 1</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_4">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>720</y>
+       <width>80</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Machine 2</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_5">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>750</y>
+       <width>80</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Machine 3</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_7">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>660</y>
+       <width>80</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>All</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_17">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>640</y>
+       <width>161</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_19">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>610</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+</string>
+     </property>
+     <property name="text">
+      <string>Cutting Machine</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelQtdLogCorte_10">
+     <property name="geometry">
+      <rect>
+       <x>900</x>
+       <y>730</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>BL202</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <zorder>label_17</zorder>
+    <zorder>LabelLogCorte_18</zorder>
+    <zorder>LabelLogCorte_17</zorder>
+    <zorder>TableOpCorte_2</zorder>
+    <zorder>label_15</zorder>
+    <zorder>LabelQtdLogCorte_8</zorder>
+    <zorder>QtdOpCorte_3</zorder>
+    <zorder>LabelLogCorte_11</zorder>
+    <zorder>label_32</zorder>
+    <zorder>ConcOpCorte_2</zorder>
+    <zorder>LabelQtdLogCorte_9</zorder>
+    <zorder>NroLote</zorder>
+    <zorder>CorteADecorrer</zorder>
+    <zorder>radioButton_6</zorder>
+    <zorder>radioButton_4</zorder>
+    <zorder>radioButton_5</zorder>
+    <zorder>radioButton_7</zorder>
+    <zorder>LabelLogCorte_19</zorder>
+    <zorder>LabelQtdLogCorte_10</zorder>
+   </widget>
+   <widget class="QWidget" name="LogCorteColado">
+    <widget class="QPushButton" name="AbastLogCorte">
+     <property name="geometry">
+      <rect>
+       <x>1130</x>
+       <y>700</y>
+       <width>271</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(100, 100, 100);
+border-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Send to Cutting</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelQtdLogCorte">
+     <property name="geometry">
+      <rect>
+       <x>1130</x>
+       <y>650</y>
+       <width>271</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);
+font: 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Blocks Added Per Click: 1</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>1201</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Logistic A</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="TableLogTrigger">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>630</y>
+       <width>771</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 10pt &quot;HP Simplified&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_2">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>590</y>
+       <width>351</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+
+</string>
+     </property>
+     <property name="text">
+      <string>Production Orders</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_4">
+     <property name="geometry">
+      <rect>
+       <x>1140</x>
+       <y>590</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+</string>
+     </property>
+     <property name="text">
+      <string>Cutting Machine</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>320</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../.designer/.designer/laser-cutting-machine.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_5">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>50</y>
+       <width>1111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+
+</string>
+     </property>
+     <property name="text">
+      <string>Production Plan</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>1110</x>
+       <y>630</y>
+       <width>311</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="TableLogCorte_C_56">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>350</y>
+       <width>1411</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 10pt &quot;HP Simplified&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="TableLogCorte_C_K">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>1411</width>
+       <height>231</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 10pt &quot;HP Simplified&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="LimparAvisos">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>760</y>
+       <width>291</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(100, 100, 100);
+border-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Clear</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_13">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+</string>
+     </property>
+     <property name="text">
+      <string>Machine 1</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_14">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>320</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+</string>
+     </property>
+     <property name="text">
+      <string>Machine 2/3</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_22">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>580</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="resources.qrc">:/images/images/box.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_23">
+     <property name="geometry">
+      <rect>
+       <x>1150</x>
+       <y>580</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="resources.qrc">:/images/images/laser-cutting-machine.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="PesquisaSeq_6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>680</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(100, 100, 100);
+border-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Search Sequence</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_43">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>630</y>
+       <width>171</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="PesquisaSeqText_6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>640</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 11pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_21">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>590</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+
+</string>
+     </property>
+     <property name="text">
+      <string>Search Sequence</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <zorder>label_43</zorder>
+    <zorder>LabelLogCorte_14</zorder>
+    <zorder>label_8</zorder>
+    <zorder>AbastLogCorte</zorder>
+    <zorder>LabelQtdLogCorte</zorder>
+    <zorder>LabelLogCorte</zorder>
+    <zorder>TableLogTrigger</zorder>
+    <zorder>LabelLogCorte_2</zorder>
+    <zorder>LabelLogCorte_4</zorder>
+    <zorder>label_6</zorder>
+    <zorder>LabelLogCorte_5</zorder>
+    <zorder>TableLogCorte_C_56</zorder>
+    <zorder>TableLogCorte_C_K</zorder>
+    <zorder>LimparAvisos</zorder>
+    <zorder>LabelLogCorte_13</zorder>
+    <zorder>label_22</zorder>
+    <zorder>label_23</zorder>
+    <zorder>PesquisaSeq_6</zorder>
+    <zorder>PesquisaSeqText_6</zorder>
+    <zorder>LabelLogCorte_21</zorder>
+   </widget>
+   <widget class="QWidget" name="page">
+    <widget class="QLabel" name="LabelLogCorte_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>1201</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 15pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Recipes per Product or Reference</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="TableReceitas">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>90</y>
+       <width>1181</width>
+       <height>701</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 10pt &quot;HP Simplified&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_15">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>50</y>
+       <width>1111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+
+</string>
+     </property>
+     <property name="text">
+      <string>Final Product Recipes</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="PesquisaSeq">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>150</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(100, 100, 100);
+border-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+font: 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Search Sequence</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="PesquisaSeqText">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>100</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>90</y>
+       <width>231</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 217, 217);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="LabelLogCorte_16">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>50</y>
+       <width>231</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+color: rgb(232, 48, 60)
+
+</string>
+     </property>
+     <property name="text">
+      <string>Search Sequence</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <zorder>label_9</zorder>
+    <zorder>LabelLogCorte_3</zorder>
+    <zorder>TableReceitas</zorder>
+    <zorder>LabelLogCorte_15</zorder>
+    <zorder>PesquisaSeq</zorder>
+    <zorder>PesquisaSeqText</zorder>
+    <zorder>LabelLogCorte_16</zorder>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="MoveExp">
+   <property name="geometry">
+    <rect>
+     <x>1100</x>
+     <y>840</y>
+     <width>141</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(150, 150, 150);color:rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>Expedite</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MoveLogCorteColado">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>840</y>
+     <width>141</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(150, 150, 150);
+color:rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>Logistic A</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MoveOpCola">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>840</y>
+     <width>141</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(150, 150, 150);color:rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>Assembly</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="AdicionarPlanoProducao">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>840</y>
+     <width>141</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 0, 0);
+color:rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>Production Plan</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MoveLogCorteNColado">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>840</y>
+     <width>141</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(150, 150, 150);
+color:rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>Cutting</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MoveAbastBuffer">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>840</y>
+     <width>141</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(150, 150, 150);
+color:rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>Logistic B</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MoveOpCorte">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>840</y>
+     <width>141</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(150, 150, 150);color:rgb(255, 255, 255)
+</string>
+   </property>
+   <property name="text">
+    <string>Unmolding</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MoveLogCola">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>840</y>
+     <width>141</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(150, 150, 150);color:rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>Logistic C</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MoveReceitas">
+   <property name="geometry">
+    <rect>
+     <x>1260</x>
+     <y>840</y>
+     <width>131</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255, 255, 255);
+background-color: rgb(170, 170, 255);</string>
+   </property>
+   <property name="text">
+    <string>Recipes</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
